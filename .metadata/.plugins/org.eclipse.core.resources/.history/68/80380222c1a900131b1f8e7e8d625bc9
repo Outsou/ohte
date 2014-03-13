@@ -1,0 +1,16 @@
+object vko1 extends App {
+	println("Korkeus?")
+	var korkeus = readInt
+	
+	for (i <- 0 to korkeus-1) {
+	  var tyhjat = "";
+	  for (j <- 0 to korkeus - 1 - i)
+		  tyhjat += " ";
+	  
+	  var tahdet = "";
+	  for (k <- 0 to i)
+	    tahdet += "*";
+	  
+	  println(tyhjat + tahdet + tyhjat)
+	} 
+}

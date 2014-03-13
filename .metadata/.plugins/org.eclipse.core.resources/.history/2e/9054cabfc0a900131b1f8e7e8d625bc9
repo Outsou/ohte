@@ -1,0 +1,5 @@
+object vko1 extends App {
+	println("Korkeus?")
+	var korkeus = readInt
+	println(korkeus)
+}

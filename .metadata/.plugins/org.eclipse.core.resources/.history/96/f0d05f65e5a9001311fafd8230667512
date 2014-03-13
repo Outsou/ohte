@@ -1,0 +1,12 @@
+object vko1_2b extends App {
+	import scala.io.Source
+	
+	if (args.length == 0)
+	  println("Komentoriviparametri puuttui.")
+	  sys.exit
+	  
+	for(line <- Source.fromFile(@"C:\Users\otsku\Desktop").getLines())
+		if (line.contains(arg0))
+	  
+	println(args())
+}

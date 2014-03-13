@@ -1,0 +1,3 @@
+object vk1c extends App {
+	println(args(1))
+}

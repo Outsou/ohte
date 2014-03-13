@@ -1,0 +1,13 @@
+object vko1_2b extends App {
+	if (args.length == 0) {
+	  println("Komentoriviparametri puuttui.")
+	  sys.exit
+	}
+	
+	println("Mit‰ merkkijonoa etsit‰‰n tiedostosta " )
+	var file = java.io.File("asd");
+	import scala.io.Source  
+	for(line <- Source.fromFile(args(0)).getLines())
+		if (line.contains(args(0)))
+		    println(line)
+}

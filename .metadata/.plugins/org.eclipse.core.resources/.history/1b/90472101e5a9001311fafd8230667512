@@ -1,0 +1,8 @@
+object vko1_2b extends App {
+	if (args.length == 0)
+	  println("Komentoriviparametri puuttui.")
+	  sys.exit
+	 
+	println(args(0))
+	println("loppu")
+}
